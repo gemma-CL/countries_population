@@ -1,4 +1,4 @@
-﻿Month;Year;Country;Population;Yearly_percentage_Change;Yearly_Change;Migrants_net;Median_Age;Fertility_Rate;Density_PKm2);Urban_Pop_percentage;Urban_Population;Countrys_Share_of_World_Pop_percentage;World_Population;Country_Global_Rank;War;Partner
+﻿Month;Year;Country;Population;Yearly_percentage_Change;Yearly_Change;Migrants_net;Median_Age;Fertility_Rate;Density_PKm2;Urban_Pop_percentage;Urban_Population;Countrys_Share_of_World_Pop_percentage;World_Population;Country_Global_Rank;War;Partner
 3;2020;China;1439323776;0,39;5540090;-348399;38,4;1,69;153;60,8;875075919;18,47;7794798739;1;yes;China
 3;2019;China;1433783686;0,43;6135900;-348399;37;1,65;153;59,7;856409297;18,59;7713468100;1;no;South Africa
 8;2018;China;1427647786;0,47;6625995;-348399;37;1,65;152;58,6;837022095;18,71;7631091040;1;yes;Jersey

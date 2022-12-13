@@ -35,7 +35,7 @@ Month, Year, Country, Population, Yearly_percentage_Change, Yearly_Change, Migra
 * **\<Country_Global_Rank>**: de tipo \<int\>, representa el ranking mundial del país.
 * **\<War>**: de tipo \<bool\> representa que el país wn cuestion estuvo en guerra.
 * **\<Partner>**: de tipo \<str\> representa el aliado del país.
-* **\<exact_date>**: de tipo \<datetime\>, representa una fecha exacta.
+* **\<date>**: de tipo \<datetime\>, representa una fecha exacta.
 ....
 
 ## Tipos implementados
@@ -53,12 +53,22 @@ En este proyecto se encuentran las siguientes funciones.
 
 * **<lee_fichero(fichero)>**:lee los datos del fichero csv y devuelve una lista de tuplas de tipo Info con los datos del fichero.
 * **<parsea_bool(war)>**: devuelve True si el país estuvo en guerra.
+* **<parsea_date(date)>**: implementa una variable del tipo datetime en la tupla.
+
 * **<calcula_paises(registros)>**: calcula el número total de países diferentes de los que se han recogido datos.
 * **<poblacion_pais_por_anyo(registro, years, pais)>**: muestra la poblacion de un país en un año determinado.
 * **<media_poblacion_pais(registro, pais)>**: muestra la media de la población de dicho país.
+
 * **<poblacion_mas_baja(registro)>**: muestra el país que ha tenido la población más baja.
 * **<top_5_paises_mayor_poblacion(registro)>**: nos muestra los países del top 5 mundial.
 * **<agrupa_por_paises(registro)>**: devuelve las poblaciones que ha tenido dicho país.
+
+* **<total_migrantes_pais(registro, pais)>**: calcula el total de migrantes que ha tenido un país a lo largo de los años.
+* **<pais_menor_fertilidad_anyo(registro, year)>**: muestra el país con menor fertilidad en un año específico.
+* **<mayor_porcentaje_pop_urbana(registro, pais)>**: muestra el mayor porcetaje de población urbana que ha tenido cierto país en los últimos años.
+* **<top_7_paises_densidad_km2_anyo(registro, year)>**: muestra los 7 países con más densidad por kilómetro cuadrado según el año.
+
+* **<top_7_paises_densidad_km2_anyo(registro, year)>**: muestra una gráfica en la que se ve la población de cierto país a lo largo de los años.
 * ...
 
 ### \<test_countries_population.py\>
